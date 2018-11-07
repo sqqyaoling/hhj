@@ -1,0 +1,40 @@
+/* pages/helpIndexs/helpIndexs.wxss */
+.sq1{
+  height: 272rpx;
+  background: #fff;
+  margin-bottom: 40rpx;
+  font-size:32rpx;
+  color:#333333;
+  font-weight: 600;
+}
+page{
+  background:#f1f2f6;
+}
+.sq1 image{
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 10rpx;
+  margin-bottom: 30rpx;
+}
+.si1{
+  padding: 0 32rpx 23rpx;
+  font-size:30rpx;
+  color:#333333;
+  line-height: 30rpx;
+}
+.si2{
+  padding: 0 32rpx 106rpx;
+  font-size:28rpx;
+  color:#999999;
+  line-height: 28rpx;
+}
+.buttons{
+  background:#04be01;
+  border-radius:8px;
+  width:690rpx;
+  height:80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size:36rpx;
+  color:#ffffff;  
+}

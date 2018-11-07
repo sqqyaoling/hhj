@@ -1,0 +1,4 @@
+/* pages//SecondKill//SecondKill.wxss */
+.sk-con{
+  background: #00f;
+}

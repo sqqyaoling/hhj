@@ -1,0 +1,39 @@
+/* pages/helpIndex/helpwx1/helpwx1.wxss */
+@import "../helpIndex.wxss";
+.help .help-con{
+  margin-top: -255rpx;
+}
+.topImg{
+  margin: 0 auto;
+  text-align: center;
+}
+.topImg .HeadPortrait{
+  display: inline-block;
+  width: 170rpx;
+  height: 170rpx;
+  border-radius: 50%;
+  border: 8rpx solid #69564D;
+}
+.topImg .txt{
+  font-size: 30rpx;
+  color: #68534a;
+  line-height: 30rpx;
+  margin-top: 10rpx;
+}
+.info:after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  margin-left: -8.5rpx;
+  top: -27rpx;
+  display: block;
+  width: 0; 
+  height: 0; 
+  border-left: 17rpx solid transparent; 
+  border-right: 17rpx solid transparent; 
+  border-bottom: 21rpx solid #DBD6D3; 
+}
+.info text{
+  font-size: 30rpx;
+  color: #333;
+}

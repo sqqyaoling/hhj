@@ -1,0 +1,6 @@
+<!--pages/time/time.wxml-->
+<template name="timer">
+  <view class='time'>
+    {{time}}
+  </view>
+</template> 

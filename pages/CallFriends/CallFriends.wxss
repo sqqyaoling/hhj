@@ -1,0 +1,73 @@
+/* pages/CallFriends/CallFriends.wxss */
+.topImage {
+  width: 100%;
+  height: 400rpx;
+}
+.bottomView {
+  position: relative;
+  border: 1px solid gray;
+}
+.tipView {
+  width: 400rpx;
+  height: 40rpx;
+  border: 1px solid gray;
+}
+.addFriend {
+  margin: 10rpx;
+  background-color: red;
+  height: 300rpx;
+  justify-content: space-around;
+}
+/* .addDiv {
+  background-color: yellow;
+  width: 33.3%;
+  background: #0f0;
+}
+.addButton{
+  display: block;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  background: #f0f;
+  margin: 0 auto;
+  line-height: 200rpx;
+  text-align: center
+} 
+*/
+.addFriend{
+  display: flex;
+	flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: space-around;
+  align-content: flex-start;
+}
+.addDiv{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  background: #0f0;
+  text-align: center;
+  line-height: 150rpx;
+  margin: 0 30rpx; 
+}
+.textOne{
+  padding: 10rpx;
+  text-align: center;
+  font: 15rpx;
+}
+.time{
+  padding: 10rpx;
+  text-align: center;
+  font: 10rpx;
+}
+.shareBtn {
+  margin: 0 20rpx;
+  padding: 10rpx;
+  background-color:red;
+}
+.lookBtn {
+  margin: 30rpx 20rpx;
+  padding: 10rpx;
+  border: 1rpx red solid;
+  
+}

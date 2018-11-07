@@ -1,0 +1,21 @@
+<!--pages/helpIndex/helpIndex.wxml-->
+<view class='help helpIndex'>
+  <view class="help-main">
+    <image class='logos' mode="widthFix" src='/image/hpic2.jpg'></image>
+    <view class='help-con'>
+      <text class='ui-blocks guize'>—— 组队越多分的越多 ——</text>
+      <view class='btn'>
+        <image class='img' mode="widthFix" src='/image/bg2.jpg'></image>
+        <text class='txt'>立邀请好友组队</text>
+      </view> 
+      <view class="sizes">
+        <text class="h2">————— 活动规则 —————</text>
+        <text class="p1">1. 分享活动链接，6位好友助力成功即可获得【1分钱购买哈哈镜指定鸭脖】兑换券一张；</text>
+        <text class="p1">2. 每位用户仅可领取一张兑换券； </text>
+        <text class="p1">3. 注册或登录成功即可为好友助力，每位好友仅可助力一次；</text>
+        <text class="p1">4. 完成助力后，系统将自动发送兑换券到您的账户中，兑换券5日内有效，逾期作废；</text>
+        <text class="p1">5. 在法律许可的范围内，哈哈镜对本活动具有解释权，如有问题请拨打客服热线：400-0175-886。</text>
+      </view>
+    </view>
+  </view>
+</view>

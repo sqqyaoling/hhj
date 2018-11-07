@@ -1,0 +1,22 @@
+/* pages/planIndex/planSuccess/planSuccess.wxss */
+@import "../planIndex.wxss";
+.planSuccess .top-size .h2{
+  font-size: 44rpx;
+  margin-bottom: 18rpx;
+  color: #f42149;
+  line-height: 44rpx;
+}
+.planSuccess .top-size .t1{
+  font-size: 26rpx;
+  color: #666;
+  margin-bottom: 40rpx;
+  line-height: 26rpx;
+}
+.planSuccess .top-size .t2{
+  font-size: 40rpx;
+  line-height: 40rpx;
+  margin-bottom: 20rpx;
+}
+.planSuccess .top-size .t3{
+  font-size: 24rpx;
+}

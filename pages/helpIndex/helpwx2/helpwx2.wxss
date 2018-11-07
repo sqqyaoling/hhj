@@ -1,0 +1,42 @@
+/* pages/helpIndex/helpwx2/helpwx2.wxss */
+@import "../helpIndex.wxss";
+.helpwx2 .help-con{
+  margin-top: -156rpx;
+}
+.guize{
+  text-align: center;
+}
+.logoInfo{
+  margin: 38rpx 0 33rpx;
+}
+.imgIcon{
+  margin: 24rpx 39rpx 0 35rpx;
+  display: inline-block;
+  width: 31rpx;
+}
+.inputView{
+  display: flex;
+  width: 690rpx;
+  margin: 0 auto 12rpx;
+  height: 87rpx;
+  border-radius: 20rpx;
+  border: 1px solid #FE1F5D;
+  line-height: 87rpx;
+  overflow: hidden;
+  text-align: left;
+}
+.input{
+  display: block;
+  flex: 1;
+  height: 87rpx;
+  line-height: 87rpx;
+  border: none;
+}
+.getNum{ 
+  display: block;
+  line-height: 87rpx;
+  background: #FE1F5D;
+  border-radius: 0;
+  color: #fff;
+  font-size: 30rpx;
+}

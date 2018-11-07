@@ -1,0 +1,19 @@
+<!--pages/CallFriends/CallFriends.wxml-->
+<view>
+  <view class='topImage'>
+    <image src='https://img.hahajing.com/upload/images/20180412/hhj_5aced71cb0e0f.jpg' mode='scaleToFill'></image>
+  </view>
+  <view class='bottomView'>
+    <view class='tipView'>召唤好友领豆浆</view>
+    <view class='addFriend'>
+      <block wx:for="{{buttonCount}}">
+        <view class='addDiv'>添加</view>
+      </block>
+    </view>
+    <view class='textOne'>每召唤一位好友即可获得一杯豆浆券</view>
+    <view class='time'>2018-05-30 前有效</view>
+    <button open-type='share' class='shareBtn'>喊好友来领豆浆</button>
+    <button bindtap='lookOther' class='lookBtn'>看看其他活动</button>
+  </view>
+
+</view>

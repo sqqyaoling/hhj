@@ -1,0 +1,28 @@
+<!--pages/CommodityDetails/CommodityDetails.wxml-->
+<view class='container'>
+  <swiper class="swiper" indicator-dots="true" indicator-color="{{swiperColor}}" indicator-active-color="#00ff00" autoplay="{{true}}">
+      <block wx:for="{{postIndexswiper}}" wx:key="dataId">
+        <swiper-item catchtap="onSwiperTap" class="swiper-item" data-labelInfo="{{item.dataId}}">
+          <navigator url="/pages/helpActivity/helpActivity" hover-class="changestyle">
+            <image src="{{item.imgUrl}}" class="swiper-item-image"></image>
+          </navigator>
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class='detailInfo'>
+      <text class='h2'>鸭货全明星大礼包 正辣 100g</text>
+      <text class='p'>八种哈哈镜爆款素菜，款款入味，口口辣爽，不辣不过瘾。</text>
+      <view class="stepper">  
+        <!-- 减号 -->  
+        <text class="{{minusStatus}}" bindtap="bindMinus">-</text>  
+        <!-- 数值 -->  
+        <input type="number" readyonly bindchange="bindManual" value="{{num}}" />  
+        <!-- 加号 -->  
+        <text class="normal" bindtap="bindPlus">+</text>  
+      </view> 
+    </view>
+    <view class='Info2'>
+      <view class='h3'><text>商品详情</text></view>
+      <image mode="widthFix" style="width: 100%;" src='http://img.hahajing.com/userfiles/goods/2017-12-21/20171221161702.jpg'></image>
+    </view>
+</view>

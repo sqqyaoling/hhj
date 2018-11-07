@@ -1,0 +1,32 @@
+{
+  "pages":[
+    
+    
+    "pages/planIndex/planSuccess/planSuccess",
+"pages/planIndex/planIndex",
+    "pages/ceshi/ceshi",
+    "pages/pay/pay",
+
+    "pages/helpIndexs/helpIndexs",
+    "pages/helpIndex/helpwx1/helpwx1",
+    "pages/helpIndex/helpIndex",
+    "pages/helpIndex/helpwx4/helpwx4",
+    "pages/helpIndex/helpwx5/helpwx5",
+    "pages/helpIndex/helpwx3/helpwx3",
+    "pages/helpIndex/helpwx2/helpwx2",    
+    "pages/pageInteractive/pageInteractive",
+    
+    "pages/CommodityDetails/CommodityDetails",
+    
+    "pages/CallFriends/CallFriends",
+    "pages/time/time",
+    "pages/index/index",
+    "pages/login/login"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "哈哈镜",
+    "navigationBarTextStyle":"black"
+  }
+}

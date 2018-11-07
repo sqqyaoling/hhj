@@ -1,0 +1,42 @@
+/* pages/login/login.wxss */
+.logo{
+  width: 260rpx;
+  display: block;
+  margin: 100rpx auto;
+}
+.inputView{
+  display: flex;
+  padding: 0 48rpx;
+  height: 100rpx;
+}
+.input{
+  display: block;
+  flex: 1;
+  height: 100rpx;
+  line-height: 100rpx;
+  border: none;
+}
+.btn{
+  display: block;
+  font-size: 36rpx;
+  line-height: 100rpx;
+}
+.submitBtn {
+    width: 650rpx;
+    background: #e60012;
+    border-radius: 70rpx;
+    line-height: 100rpx;
+    color: #fff;
+    margin: 100rpx auto 20rpx;
+    letter-spacing: 5px;
+}
+.title{
+  text-align: center;
+  font-size: 24rpx;
+  color: #999;
+}
+.title text{
+  text-decoration: underline;
+  font-size: 28rpx;
+  color: #999;
+}

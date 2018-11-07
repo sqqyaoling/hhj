@@ -1,0 +1,8 @@
+<!--pages/helpIndexs/helpIndexs.wxml-->
+<view class='ui-conter sq1'>
+  <image src='/image/app_logo.png'></image>
+  <text class='ui-blocks size'>哈哈镜</text>
+</view>
+<text class='ui-blocks si1'>页面由该公众号开发，请确认授权以下信息</text>
+<text class='ui-blocks si2'>获得你的公开信息（昵称、头像等）</text>
+<button open-type="getUserInfo" bindgetuserinfo="onGotUserInfo" class='buttons' hover-class="none" bindtap='imgClick'>点击授权</button>

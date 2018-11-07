@@ -1,0 +1,85 @@
+<!--pages/helpIndex/helpwx5/helpwx5.wxml-->
+<view class='help helpwx3'>
+  <view class="help-main">
+    <image class='logos' mode="widthFix" src='/image/hpic2.jpg'></image>
+    <view class='help-con'>
+       <view class='info'>
+          <view class='ui-conter'>
+            <text class='ui-blocks size1 color'>恭喜，最强战队就是你！</text>
+            <text class='ui-blocks'>已有<text class='color'>3</text>位好友组队，您成功瓜分<text class='color'>3</text>瓶豆浆</text>
+            <view><text>豆浆兑换券已发送到账户：</text><text class='size2 color'>18911491054</text></view>
+          </view>
+        </view>
+        <view class='btn' bindtap='bindButtonTap'>
+          <image class='img' mode="widthFix" src='/image/bg2.jpg'></image>
+          <view class='txt'>邀请更多好友</view>
+        </view>
+        <view class='propInfo'>
+          <text class='ui-blocks h2 h3'>——————— 给力队友 ———————</text>
+          <view class='lis ui-flex'>
+            <text class='lis-left'>1</text>
+            <image class='lisImg' mode="widthFix" src='/'></image>
+            <view class='ui-flexs lis-center'>
+              <view class='ui-conter'>
+                <view class='name'>哈哈哈哈</view>
+                <view class='time'>2018-04-16 16:19</view>
+              </view>
+            </view>
+            <text class='ui-blocks lis-right lis-rightSec'>已组队</text>
+          </view>
+          <view class='lis ui-flex'>
+            <text class='lis-left'>2</text>
+            <image class='lisImg' mode="widthFix" src='/'></image>
+            <view class='ui-flexs lis-center'>
+              <view class='ui-conter'>
+                <view class='name'>哈哈哈哈</view>
+                <view class='time'>2018-04-16 16:19</view>
+              </view>
+            </view>
+            <text class='ui-blocks lis-right lis-rightSec'>已组队</text>
+          </view>
+          <view class='lis ui-flex'>
+            <text class='lis-left'>3</text>
+            <image class='lisImg' mode="widthFix" src='/'></image>
+            <view class='ui-flexs lis-center'>
+              <view class='ui-conter'>
+                <view class='name'>哈哈哈哈</view>
+                <view class='time'>2018-04-16 16:19</view>
+              </view>
+            </view>
+            <text class='ui-blocks lis-right lis-rightSec'>已组队</text>
+          </view>
+          <view class='lis ui-flex'>
+            <text class='lis-left'>4</text>
+            <image class='lisImg' mode="widthFix" src='/'></image>
+            <view class='ui-flexs lis-center'>
+              <view class='ui-conter'>
+                <view class='conwz'>未知队友</view>
+              </view>
+            </view>
+            <text class='ui-blocks lis-right'>待邀请</text>
+          </view>
+          <view class='lis ui-flex'>
+            <text class='lis-left'>5</text>
+            <image class='lisImg' mode="widthFix" src='/'></image>
+            <view class='ui-flexs lis-center'>
+              <view class='ui-conter'>
+                <view class='conwz'>未知队友</view>
+              </view>
+            </view>
+            <text class='ui-blocks lis-right'>待邀请</text>
+          </view>
+          <view class='lis ui-flex'>
+            <text class='lis-left'>6</text>
+            <image class='lisImg' mode="widthFix" src='/'></image>
+            <view class='ui-flexs lis-center'>
+              <view class='ui-conter'>
+                <view class='conwz'>未知队友</view>
+              </view>
+            </view>
+            <text class='ui-blocks lis-right'>待邀请</text>
+          </view>
+        </view>
+    </view>
+  </view>
+</view>

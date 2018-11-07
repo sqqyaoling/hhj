@@ -1,0 +1,68 @@
+/* pages/CommodityDetails/CommodityDetails.wxss */
+.swiper, .swiper .swiper-item, .swiper .swiper-item-image {
+  width: 750rpx;
+  height: 750rpx;
+}
+.detailInfo{
+  padding: 0 48rpx 48rpx;
+  position: relative;
+  background-color: #fff;
+}
+.h2, .p{
+  display: block
+}
+.h2{
+  font-weight: bold;
+  font-size: 36rpx;
+  line-height: 96rpx;
+}
+.p{
+  font-size: 36rpx;
+}
+
+/*主容器*/  
+.stepper {  
+   width: auto;
+   display: inline-flex;
+   position: absolute;
+   right: 48rpx;
+   bottom: 10px;
+}  
+  
+/*加号和减号*/  
+.stepper text {  
+    width: 60rpx;
+    height: 60rpx;
+    line-height: 60rpx; 
+    text-align: center;  
+    background: #e60012;
+    border-radius: 50%;
+    color: #fff; 
+    font-size: 56rpx;
+}  
+  
+/*数值*/  
+.stepper input {  
+    width: 60rpx;  
+    height: 60rpx;
+    line-height: 60rpx;   
+    text-align: center;  
+    font-size: 28rpx; 
+}  
+   
+/*禁用样式*/  
+.stepper .disabled{  
+    background: #ccc;  
+}  
+.Info2{
+  background: #fff;
+  margin-top: 28rpx;
+}
+.h3{
+  text-align: center;
+}
+.h3 text{
+  font-size: 36rpx;
+  line-height: 100rpx;
+  color: #e60012;
+}

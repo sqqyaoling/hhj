@@ -1,0 +1,69 @@
+/* pages/pay/pay.wxss */
+page{
+  background:#f8f8f8;
+}
+.pay-time{
+  height: 220rpx;
+  background: #fff;
+  margin-bottom: 16rpx;
+}
+.pay-time text{
+  font-size: 38rpx;
+  color: #4a4a4a;
+}
+.pay-time .time{
+  font-size:64rpx;
+  color:#333333;
+  line-height: 64rpx;
+  margin-top: 18rpx;
+}
+.pay-sec{
+  background: #fff;
+  padding: 0 21rpx;
+  height: 130rpx;
+}
+.pay-sec .pl{
+  display: block;
+  width: 57rpx;
+  height: 57rpx;
+  margin-top: 38rpx;
+  margin-right: 19rpx;
+}
+.pay-sec .pr{
+  display: block;
+  width: 44rpx;
+  height: 44rpx;
+  margin-top: 43rpx;
+}
+.pay-sec .pc{
+  margin-top: 32rpx;
+}
+.pay-sec .t1{
+  font-size: 32rpx;
+  color:#222222;
+  margin-bottom: 12rpx;
+  line-height: 32rpx;
+}
+.pay-sec .t2{
+  font-size:24rpx;
+  color:#999999;
+  line-height: 24rpx;
+}
+.footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:136rpx;
+  background: #fff;
+}
+.footer .go{
+  border:2rpx solid #e60012;
+  border-radius:100px;
+  width:498rpx;
+  height:86rpx;
+  text-align: center;
+  line-height: 86rpx;
+  font-size:36rpx;
+  color:#e70113;
+}

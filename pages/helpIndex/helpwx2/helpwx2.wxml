@@ -1,0 +1,26 @@
+<!--pages/helpIndex/helpwx2/helpwx2.wxml-->
+<view class='help helpwx2'>
+  <view class="help-main">
+    <image class='logos' mode="widthFix" src='/image/hpic2.jpg'></image>
+    <view class='help-con'>
+      <text class='ui-blocks guize'>—————— 瓜分豆浆只需一步 ——————</text>
+      <view class='logoInfo'>
+        <view class='inputView'>
+          <image src='/image/pic2.png' mode="widthFix" class='imgIcon'></image>
+          <input type='number' class='input' name="userPhone" bindinput="userPhoneInput" placeholder-style="font-size:30rpx;color: #999" maxlength="11" placeholder='输入手机号'></input>
+        </view>
+        <view class='inputView'>
+          <image src='/image/pic1.png' mode="widthFix" class='imgIcon'></image>
+          <input type='number' class='input' name="useryz" bindinput="useryzInput" placeholder-style="font-size:30rpx;color: #999" maxlength="4" placeholder='输入验证码'></input>
+          <button class='getNum'  bindtap='bindButtonGet' hover-class="none" type="primary" disabled="{{codeDis}}">{{codeTxt}}</button>
+        </view>
+      </view>
+      <view class='btn' bindtap='bindButtonTap'>
+        <image class='img' mode="widthFix" src='/image/bg2.jpg'></image>
+        <!-- <button open-type="getUserInfo" bindgetuserinfo="onGotUserInfo" class='txt' hover-class="none" bindtap='bindButtonTap'>立即组队</button> -->
+        <view class='txt'>立即组队</view>
+      </view> 
+    </view>
+  </view>
+</view>
+

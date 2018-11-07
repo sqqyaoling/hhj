@@ -1,0 +1,25 @@
+/* pages/helpIndex/helpwx3/helpwx3.wxss */
+@import "../helpIndex.wxss";
+.helpwx3 .help-con{
+  margin-top: -242rpx;
+}
+.helpwx3 .info{
+  height: 240rpx;
+}
+.helpwx3 .info text{
+  line-height: 69rpx;
+  font-size: 24rpx;
+}
+.helpwx3 .info .size1{
+  font-size: 36rpx;
+}
+.helpwx3 .info .size2{
+  font-size: 30rpx;
+}
+.helpwx3 .btn{
+  margin-bottom: 23rpx;
+  margin-top: 64rpx;
+}
+.h3{
+  margin-bottom: 29rpx;
+}

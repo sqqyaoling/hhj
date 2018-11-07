@@ -1,0 +1,5 @@
+<!--pages/pageInteractive/pageInteractive.wxml-->
+<view style='width: 100%;'>
+   <!-- <web-view class='width: 100%' src="https://test.hahajing.com/ceshi/index.html?aa=0" bindmessage="bindGetMsg"></web-view>  -->
+   <web-view src="{{url}}" bindmessage="bindGetMsg"></web-view> 
+</view>

@@ -1,0 +1,69 @@
+<!--pages/planIndex/planIndex.wxml-->
+<view class='plan'>
+  <view class='minSec flip minSec1 {{classStyle}}' bindtap='aa'>
+    <image src='/image/sec.png'></image>
+  </view>
+  <view class='minSec flip {{classStyle2}}'>
+    <image src='/image/sec1.png'></image>
+  </view>
+  <view class='mask ui-conter' hidden="{{maskShow}}">
+    <view class='login'>
+      <image mode="widthFix" mode="scaleToFill" src="/image/loginBgs.png" class="img"></image>
+      <view class='login-con'>
+        <view class='logoInfo'>
+        <image class='close' bindtap='closeBindTap'  src='/image/closeBtn.png'></image>
+        <view class='inputView'>
+          <image src='/image/pic2.png' mode="widthFix" class='imgIcon'></image>
+          <input type='number' class='input' name="userPhone" bindinput="userPhoneInput" placeholder-style="font-size:28rpx;color: #999" maxlength="11" placeholder='输入手机号'></input>
+        </view>
+        <view class='inputView'>
+          <image src='/image/pic1.png' mode="widthFix" class='imgIcon'></image>
+          <input type='number' class='input' name="useryz" bindinput="useryzInput" placeholder-style="font-size:28rpx;color: #999" maxlength="4" placeholder='输入验证码'></input>
+          <button class='getNum'  bindtap='bindButtonGet' hover-class="none" type="primary" disabled="{{codeDis}}">{{codeTxt}}</button>
+        </view>
+      </view>
+      <view class='btn' bindtap='bindButtonTap'>
+        <image class='Img'  src='/image/btnBgs.png'></image>
+        <view class='txt'>{{goTxt}}</view>
+      </view> 
+      </view>
+    </view>
+  </view>
+  <image bindtap='imgTap' mode="widthFix" src="/image/top.jpg" class="Image"></image>  
+  <view class='planInfo'>
+    <!-- <view class='bdr-border'>111</view> -->
+    <view class='top-size'>
+      <text class='h2'>每天早起一杯新鲜豆浆</text>
+      <text>元气满满 营养又健康</text>
+    </view>
+    <button class='btnColor ReceiveBtn' hover-class="none" bindtap='btn' bindtap='ReceiveBindTap' open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">领取10天豆浆计划</button>
+    <!-- <text class='btnColor ReceiveBtn' bindtap='btn' bindtap='ReceiveBindTap'>领取10天豆浆计划</text> -->
+    <view class='planText ui-flex'>
+      <view class='ptl bdr-r'>
+        <text class='ui-blocks'>10天</text>
+        <text class='ui-blocks'>豆浆计划</text>
+      </view>
+      <view class='ui-flexs ptr ui-conterLeft'>
+        <text class='ui-blocks'>每日只能使用一张</text>
+        <text class='ui-blocks'>选择附近的店下单领取</text>
+        <text class='ui-blocks'>每张券需要支付1元后领取</text>
+        <!-- <text class='ui-blocks'>更多规则......</text> -->
+      </view>
+    </view>
+  </view>
+  <image class='imgs' mode="widthFix" src='/image/pic1.jpg'></image>
+  <view class='imageDiv'>
+    <button open-type="getUserInfo" bindgetuserinfo="onGotUserInfo" class='buttons' hover-class="none" bindtap='imgClick' data-goodsId='19976'></button>
+    <image class='imgs' mode="widthFix" src='/image/pic4.jpg'></image>
+  </view>
+  <image class='imgs' mode="widthFix" src='/image/pic2.jpg'></image>
+  <view class='imageDiv'>
+    <button open-type="getUserInfo" bindgetuserinfo="onGotUserInfo" class='buttons' hover-class="none" bindtap='imgClick' data-goodsId='19975'></button>
+    <image class='imgs' mode="widthFix" src='/image/pic5.jpg'></image>
+  </view>
+  <image class='imgs' mode="widthFix" src='/image/pic3.jpg'></image>
+  <view class='imageDiv'>
+    <button open-type="getUserInfo" bindgetuserinfo="onGotUserInfo" class='buttons' hover-class="none" bindtap='imgClick' data-goodsId='19974'></button>
+    <image class='imgs' mode="widthFix" src='/image/pic6.jpg'></image>
+  </view>
+</view>

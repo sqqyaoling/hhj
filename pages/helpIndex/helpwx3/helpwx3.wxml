@@ -1,0 +1,44 @@
+<!--pages/helpIndex/helpwx3/helpwx3.wxml-->
+<view class='help helpwx3'>
+  <view class="help-main">
+    <image class='logos' mode="widthFix" src='/image/hpic2.jpg'></image>
+    <view class='help-con'>
+       <view class='info'>
+          <view class='ui-conter'>
+            <text class='ui-blocks size1 color'>组队成功，瓜分到1瓶豆浆</text>
+            <view><text>豆浆兑换券已发送到账户：</text><text class='size2 color'>{{phone}}</text></view>
+          </view>
+        </view>
+        <view class='btn' bindtap='shereBindTap'>
+          <image class='img' mode="widthFix" src='/image/bg2.jpg'></image>
+          <button class='txt' open-type='share' hover-class="none">我也要发起战队</button>
+        </view>
+        <view class='propInfo'>
+          <text class='ui-blocks h2 h3'>——————— 给力队友 ———————</text>
+          <block wx:for="{{datas}}" wx:for-index="idx" wx:for-item="item" wx:key="key">
+             <view class='lis ui-flex' wx:if="{{item.nickname}}">
+              <text class='lis-left'>{{idx + 1}}</text>
+              <image class='lisImg' wx:if="{{item.avatar}}" mode="widthFix" src='{{item.avatar}}'></image>
+              <view class='ui-flexs lis-center'>
+                <view class='ui-conter'>
+                  <view class='name'>{{item.nickname}}</view>
+                  <view class='time'>{{item.add_time}}</view>
+                </view>
+              </view>
+              <text class='ui-blocks lis-right lis-rightSec'>已组队</text>
+            </view>
+            <view class='lis ui-flex' wx:else>
+              <text class='lis-left'>{{idx + 1}}</text>
+              <image class='lisImg' mode="widthFix" src='/image/pic3.png'></image>
+              <view class='ui-flexs lis-center'>
+                <view class='ui-conter'>
+                  <view class='conwz'>未知队友</view>
+                </view>
+              </view>
+              <text class='ui-blocks lis-right'>待邀请</text>
+            </view> 
+          </block>
+        </view>
+    </view>
+  </view>
+</view>

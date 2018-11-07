@@ -1,0 +1,47 @@
+<!--pages/planIndex/planSuccess/planSuccess.wxml-->
+<view class='plan planSuccess'>
+  <view class='minSec flip minSec1 {{classStyle}}' bindtap='aa'>
+      <image src='/image/sec.png'></image>
+    </view>
+    <view class='minSec flip {{classStyle2}}'>
+      <image src='/image/sec1.png'></image>
+    </view>
+    <image bindtap='imgTap' mode="widthFix" src="/image/top.jpg" class="Image"></image>  
+  <view class='planInfo'>
+    <view class='top-size'>
+      <text class='h2'>恭喜你，领券成功！</text>
+      <text class='ui-blocks t1'>豆浆券已发送到账户：{{phone}}</text>
+      <text class='ui-blocks t2'>每天早起一杯新鲜豆浆</text>
+      <text class='ui-blocks t3'>元气满满 营养又健康</text>
+    </view>
+    <text class='btnColor ReceiveBtn' bindtap='btn' bindtap='ReceiveBindTap'>马上使用</text>
+    <view class='planText ui-flex'>
+      <view class='ptl bdr-r'>
+        <text class='ui-blocks '>10天</text>
+        <text class='ui-blocks '>豆浆计划</text>
+      </view>
+      <view class='ui-flexs ptr'>
+        <text class='ui-blocks '>每日只能使用一张</text>
+        <text class='ui-blocks '>选择附近的店下单领取</text>
+        <text class='ui-blocks '>每张券需要支付0.01元后领取</text>
+        <text class='ui-blocks '>更多规则......</text>
+      </view>
+    </view>
+    <!-- <button open-type='share'>点击点击</button> -->
+  </view>
+  <image class='imgs' mode="widthFix" src='/image/pic1.jpg'></image>
+  <view class='imageDiv'>
+    <button class='buttons' hover-class="none" bindtap='imgClick' data-goodsId='19976'></button>
+    <image class='imgs' mode="widthFix" src='/image/pic4.jpg'></image>
+  </view>
+  <image class='imgs' mode="widthFix" src='/image/pic2.jpg'></image>
+  <view class='imageDiv'>
+    <button class='buttons' hover-class="none" bindtap='imgClick' data-goodsId='19975'></button>
+    <image class='imgs' mode="widthFix" src='/image/pic5.jpg'></image>
+  </view>
+  <image class='imgs' mode="widthFix" src='/image/pic3.jpg'></image>
+  <view class='imageDiv'>
+    <button class='buttons' hover-class="none" bindtap='imgClick' data-goodsId='19974'></button>
+    <image class='imgs' mode="widthFix" src='/image/pic6.jpg'></image>
+  </view>
+</view>

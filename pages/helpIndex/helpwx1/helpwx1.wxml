@@ -1,0 +1,30 @@
+<!--pages/helpIndex/helpwx1/helpwx1.wxml-->
+<view class='help helpwx1'>
+  <view class="help-main">
+    <image class='logos' mode="widthFix" src='/image/hpic2.jpg'></image>
+    <view class='help-con'>
+      <view class='topImg'>
+         <image src='{{imageUrl}}' class='HeadPortrait'></image> 
+        <text class='ui-blocks txt'>{{userName}}</text>
+      </view>
+      <view class='info'>
+        <view class='ui-conter'>
+          <text class='ui-blocks'>邀请你加入营养战队，</text>
+          <view><text>两人可</text><text class='color'>各得一瓶豆浆！</text></view>
+        </view>
+      </view>
+      <view class='btn'>
+        <image class='img' mode="widthFix" src='/image/bg2.jpg'></image>
+        <view class='txt' bindtap='isLogin'>立即组队</view>
+      </view> 
+      <view class="sizes">
+        <text class="h2">————— 活动规则 —————</text>
+        <text class="p1">1. 分享活动链接，6位好友助力成功即可获得【1分钱购买哈哈镜指定鸭脖】兑换券一张；</text>
+        <text class="p1">2. 每位用户仅可领取一张兑换券； </text>
+        <text class="p1">3. 注册或登录成功即可为好友助力，每位好友仅可助力一次；</text>
+        <text class="p1">4. 完成助力后，系统将自动发送兑换券到您的账户中，兑换券5日内有效，逾期作废；</text>
+        <text class="p1">5. 在法律许可的范围内，哈哈镜对本活动具有解释权，如有问题请拨打客服热线：400-0175-886。</text>
+      </view>
+    </view>
+  </view>
+</view>

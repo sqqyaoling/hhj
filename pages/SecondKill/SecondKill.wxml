@@ -1,0 +1,10 @@
+<!--pages//SecondKill//SecondKill.wxml-->
+<view class='container sk-con'>
+  <view class='uls'>
+    <block wx-for="datails" wx-key="id">
+      <view class='lis'>
+        111
+      </view>
+    </block>
+  </view>
+</view>

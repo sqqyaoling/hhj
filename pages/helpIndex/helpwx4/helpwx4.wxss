@@ -1,0 +1,9 @@
+/* pages/helpIndex/helpwx4/helpwx4.wxss */
+@import "../helpwx3/helpwx3.wxss";
+.helpwx3 .info text{
+  line-height: 53rpx;
+  font-size: 24rpx;
+}
+.helpwx3 .info .size1{
+  line-height: 66rpx;
+}

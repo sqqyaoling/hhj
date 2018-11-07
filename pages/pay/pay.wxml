@@ -1,0 +1,18 @@
+<!--pages/pay/pay.wxml-->
+<!-- <view class='pay'>
+  <view class='ui-conter pay-time'>
+    <text class='ui-blocks'>剩余支付时间</text>
+    <text class='ui-blocks time'>14:35</text>
+  </view>
+  <view class='ui-flex pay-sec'>
+    <image class='pl' src='/image/wmode.png'></image>
+    <view class='ui-flexs pc'>
+      <text class='ui-blocks t1'>微信支付</text>
+      <text class='ui-blocks t2'>推荐安装微信5.0及以上版本使用</text>
+    </view>
+    <image class='pr' src='/image/pay-y.png'></image>
+  </view>
+  <view class='footer ui-conter'>
+    <text class='ui-blocks go'>确认支付 ￥30</text>
+  </view>
+</view> -->

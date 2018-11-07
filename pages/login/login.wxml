@@ -1,0 +1,15 @@
+<!--pages/login/login.wxml-->
+<view class='login'>
+  <image class='logo' mode="widthFix" src='http://weixin.hahajing.com//Public/image/810/icon/logo.png'></image>
+  <view class='logoInfo'>
+    <view class='inputView bdr-bottom'>
+      <input type='number' class='input' name="userPhone" bindinput="userPhoneInput" placeholder-style="color: #ccc" maxlength="11" placeholder='输入手机号'></input>
+    </view>
+    <view class='inputView bdr-bottom'>
+      <input type='number' class='input' name="useryz" bindinput="useryzInput" placeholder-style="color: #ccc" maxlength="4" placeholder='输入验证码'></input>
+      <button class='btn'  bindtap='bindButtonGet'>获取验证码</button>
+    </view>
+  </view>
+  <button class='submitBtn' bindtap='bindButtonTap'>登录</button>
+  <view class="title"><navigator url='/pages/index/index'>登录即代表已阅读并同意<text>哈哈镜服务协议</text></navigator></view>
+</view>
